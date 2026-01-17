@@ -39,6 +39,7 @@ networkmanager
 noto-fonts-emoji
 nwg-look
 obsidian
+openssh
 pacman-contrib
 pavucontrol
 pipewire
