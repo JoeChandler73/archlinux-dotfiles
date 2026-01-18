@@ -27,6 +27,7 @@ intel-ucode
 kitty
 kvantum
 kvantum-qt5
+less
 libpulse
 librewolf-bin
 linux-firmware
