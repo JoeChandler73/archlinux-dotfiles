@@ -4,6 +4,8 @@ base
 base-devel
 bluez
 bluez-utils
+brightnessctl
+btop
 catppuccin-gtk-theme-frappe
 catppuccin-gtk-theme-latte
 catppuccin-gtk-theme-macchiato
@@ -17,12 +19,16 @@ ffmpeg4.4
 firefox
 fzf
 git
+grimblast-git
 gst-plugin-pipewire
 gtk-engine-murrine
 hypridle
 hyprland
+hyprlang
 hyprlock
-hyprpanel
+hyprpicker
+hyprutils
+hyprwayland-scanner
 intel-ucode
 kitty
 kvantum
@@ -49,6 +55,8 @@ pipewire-jack
 pipewire-pulse
 podman
 polkit-gnome
+power-profiles-daemon
+python-gpustat
 python-pywal16
 qt5-wayland
 qt6-wayland
@@ -64,6 +72,7 @@ unzip
 usbutils
 visual-studio-code-bin
 waybar
+wf-recorder-git
 which
 wireplumber
 wofi
