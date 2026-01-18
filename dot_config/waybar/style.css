@@ -2,8 +2,10 @@
     border: none;
     border-radius: 0;
     font-family: "JetBrainsMono Nerd Font Propo", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
     min-height: 0;
+    border-radius: 50px;
 }
 
 window#waybar {
@@ -14,27 +16,73 @@ tooltip {
   background: rgba(43, 48, 59, 0.5);
   border: 1px solid rgba(100, 114, 125, 0.5);
 }
+
 tooltip label {
   color: white;
 }
 
-#workspaces button {
-    padding: 0 5px;
-    background: transparent;
-    color: white;
-    border-bottom: 3px solid transparent;
+.modules-left {
+    margin-left: 15px;
 }
 
-#workspaces button.focused {
-    background: #64727D;
-    border-bottom: 3px solid white;
+.modules-right {
+    margin-right: 15px;
 }
 
-#clock {
-    background-color: #64727D;
+#custom-launcher,
+#clock,
+#workspaces,
+#custom-notification,
+#custom-media,
+#custom-pacman,
+#custom-weather,
+#pulseaudio,
+#network {
+    background-color: #121212;
+    margin-right: 10px;
+    padding: 0 10px;
 }
 
-#battery {
-    background-color: #ffffff;
-    color: black;
+#workspaces {
+    padding: 8px 5px;
+    border-radius: 16px;
+}
+
+#workspaces button{
+    padding: 0px 6px;
+    margin: 0px 3px;
+    border-radius: 50px;
+    color: transparent;
+    background: #434343;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    background-color: #e8eaed;
+    color: #434343;
+    min-width: 50px;
+    transition: all 0.3s ease-in-out;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+#workspaces button:hover {
+    background-color: #ebbaff;
+    color: #121212;
+    border-radius: 16px;
+    min-width: 50px;
+    background-size: 400% 400%;
+}
+
+#workspaces button.urgent {
+    background-color: #aa1122;
+    color: #e8eaed;
+    border-radius: 16px;
+    min-width: 50px;
+    background-size: 400% 400%;
+    transition: all 0.3s ease-in-out;
+}
+
+#network {
+    margin: 0;
 }
