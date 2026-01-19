@@ -1,3 +1,5 @@
+@import "colors/matugen.css";
+
 * {
     border: none;
     border-radius: 0;
@@ -13,7 +15,7 @@ window#waybar {
 }
 
 tooltip {
-  background: rgba(43, 48, 59, 0.5);
+  background: @surface;
   border: 1px solid rgba(100, 114, 125, 0.5);
 }
 
@@ -38,45 +40,48 @@ tooltip label {
 #custom-weather,
 #pulseaudio,
 #network {
-    background-color: #121212;
+    background-color: @surface;
+    color: @primary;
     margin-right: 10px;
     padding: 0 10px;
 }
 
 #workspaces {
+    background-color: @surface;
+    color: @primary;
     padding: 8px 5px;
     border-radius: 16px;
 }
 
-#workspaces button{
+#workspaces button {
     padding: 0px 6px;
     margin: 0px 3px;
     border-radius: 50px;
     color: transparent;
-    background: #434343;
+    background-color: @on_secondary;
     transition: all 0.3s ease-in-out;
 }
 
 #workspaces button.active {
-    background-color: #e8eaed;
-    color: #434343;
-    min-width: 50px;
+    background-color: @primary;
+    color: @surface;
+    min-width: 30px;
     transition: all 0.3s ease-in-out;
     font-size: 13px;
     border-radius: 50px;
 }
 
 #workspaces button:hover {
-    background-color: #ebbaff;
-    color: #121212;
+    background-color: @secondary;
+    color: @surface;
     border-radius: 16px;
     min-width: 50px;
     background-size: 400% 400%;
 }
 
 #workspaces button.urgent {
-    background-color: #aa1122;
-    color: #e8eaed;
+    background-color: @error;
+    color: @surface;
     border-radius: 16px;
     min-width: 50px;
     background-size: 400% 400%;

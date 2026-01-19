@@ -1,0 +1,8 @@
+* {
+    /* Manual opacity: @background + CC (80% opacity) */
+    background:     #271d1cCC;
+    background-alt: #322826CC;
+    foreground:     #f1dfdb;
+    selected:       #73342a;
+    on-selected:    #ffdad4;
+}
