@@ -115,5 +115,8 @@ alias home="cd ~"
 alias ll="ls -la"
 alias c="chezmoi"
 
+alias orphans='[[ -n $(pacman -Qdt) ]] && \
+  sudo pacman -Rs $(pacman -Qdtq) || echo "no orphans to remove"'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

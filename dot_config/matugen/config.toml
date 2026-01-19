@@ -1,0 +1,48 @@
+[config]
+mode = "dark"
+contrast = 0.5  # Increased for better visibility
+scheme_type = "expressive"  # This will give you much more color variation!
+
+[config.wallpaper]
+command = "swww"
+arguments = ["img", "--transition-type", "center", "--transition-fps", "60"]
+set = true
+
+# For example, killing the wallpaper daemon. Usage is like a normal hook.
+# pre_hook = ""
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors/matugen.conf'
+post_hook = 'hyprctl reload'
+
+[templates.alacritty]
+input_path = '~/.config/matugen/templates/alacritty.toml'
+output_path = '~/.config/alacritty/colors/matugen.toml'
+# post_hook = 'kill -SIGUSR1 $(pgrep alacritty)'
+
+[templates.waybar]
+input_path = '~/.config/matugen/templates/colors.css'
+output_path = '~/.config/waybar/colors/matugen.css'
+post_hook = 'pkill waybar; waybar &'
+
+[templates.wofi]
+input_path = '~/.config/matugen/templates/wofi.css'
+output_path = '~/.config/wofi/style.css'
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi-colors.rasi'
+output_path = '~/.config/rofi/colors/matugen.rasi'
+
+[templates.gtk3]
+input_path = '~/.config/matugen/templates/gtk-colors.css'
+output_path = '~/.config/gtk-3.0/colors/matugen.css'
+
+[templates.gtk4]
+input_path = '~/.config/matugen/templates/gtk-colors.css'
+output_path = '~/.config/gtk-4.0/colors/matugen.css'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
