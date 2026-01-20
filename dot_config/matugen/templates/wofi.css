@@ -4,7 +4,7 @@ window {
     border: 2px solid {{colors.primary.default.hex}};
     background-color: {{colors.surface.default.hex}};
     width: 300px;  /* Adjust this value to your preference */
-    font-family: "Sans", sans-serif;
+    font-family: "JetBrainsMono Nerd Font Propo", sans-serif;
     font-size: 14px;
 }
 
