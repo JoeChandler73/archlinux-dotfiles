@@ -1,3 +1,4 @@
+apple_cursor
 catppuccin-gtk-theme-frappe
 catppuccin-gtk-theme-latte
 catppuccin-gtk-theme-macchiato
@@ -6,11 +7,16 @@ grimblast-git
 gtk-engine-murrine
 gtk2
 librewolf-bin
+librewolf-bin-debug
 matugen-bin
+papirus-folders
 python-gpustat
 python-nvidia-ml-py
 python-pywal16
+python-pywalfox
 visual-studio-code-bin
 wf-recorder-git
+wlogout
+wlogout-debug
 yay-bin
 yay-bin-debug

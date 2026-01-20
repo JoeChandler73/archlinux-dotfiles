@@ -1,5 +1,7 @@
+adw-gtk-theme
 alacritty
 amberol
+apple_cursor
 base
 base-devel
 bluez
@@ -16,6 +18,7 @@ docker
 efibootmgr
 fastfetch
 ffmpeg4.4
+ffmpegthumbnailer
 firefox
 fzf
 git
@@ -48,6 +51,8 @@ nwg-look
 obsidian
 openssh
 pacman-contrib
+papirus-folders
+papirus-icon-theme
 pavucontrol
 pipewire
 pipewire-alsa
@@ -58,8 +63,10 @@ polkit-gnome
 power-profiles-daemon
 python-gpustat
 python-pywal16
+python-pywalfox
 qt5-wayland
 qt6-wayland
+rofi
 sassc
 sddm
 sudo
@@ -67,6 +74,8 @@ swaync
 swww
 thunar
 torbrowser-launcher
+tree
+tumbler
 udiskie
 unzip
 usbutils
@@ -75,6 +84,7 @@ waybar
 wf-recorder-git
 which
 wireplumber
+wlogout
 wofi
 wpa_supplicant
 xdg-desktop-portal-hyprland

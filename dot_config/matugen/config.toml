@@ -31,8 +31,8 @@ input_path = '~/.config/matugen/templates/wofi.css'
 output_path = '~/.config/wofi/style.css'
 
 [templates.rofi]
-input_path = '~/.config/matugen/templates/rofi-colors.rasi'
-output_path = '~/.config/rofi/colors/matugen.rasi'
+input_path = '~/.config/matugen/templates/rofi.rasi'
+output_path = '~/.config/rofi/launchers/type-7/style-3.rasi'
 
 [templates.pywalfox]
 input_path = '~/.config/matugen/templates/pywalfox-colors.json'

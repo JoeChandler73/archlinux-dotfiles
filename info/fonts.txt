@@ -1,8 +1,36 @@
 Adwaita Mono
 Adwaita Sans
+feather
 FreeMono
 FreeSans
 FreeSerif
+GeistMono Nerd Font,GeistMono NF
+GeistMono Nerd Font,GeistMono NF,GeistMono NF Black
+GeistMono Nerd Font,GeistMono NF,GeistMono NF Light
+GeistMono Nerd Font,GeistMono NF,GeistMono NF Medium
+GeistMono Nerd Font,GeistMono NF,GeistMono NF SemiBold
+GeistMono Nerd Font,GeistMono NF,GeistMono NF Thin
+GeistMono Nerd Font,GeistMono NF,GeistMono NF UltraBlack
+GeistMono Nerd Font,GeistMono NF,GeistMono NF UltraLight
+GeistMono Nerd Font Mono,GeistMono NFM
+GeistMono Nerd Font Mono,GeistMono NFM,GeistMono NFM Black
+GeistMono Nerd Font Mono,GeistMono NFM,GeistMono NFM Light
+GeistMono Nerd Font Mono,GeistMono NFM,GeistMono NFM Medium
+GeistMono Nerd Font Mono,GeistMono NFM,GeistMono NFM SemiBold
+GeistMono Nerd Font Mono,GeistMono NFM,GeistMono NFM Thin
+GeistMono Nerd Font Mono,GeistMono NFM,GeistMono NFM UltraBlack
+GeistMono Nerd Font Mono,GeistMono NFM,GeistMono NFM UltraLight
+GeistMono Nerd Font Propo,GeistMono NFP
+GeistMono Nerd Font Propo,GeistMono NFP,GeistMono NFP Black
+GeistMono Nerd Font Propo,GeistMono NFP,GeistMono NFP Light
+GeistMono Nerd Font Propo,GeistMono NFP,GeistMono NFP Medium
+GeistMono Nerd Font Propo,GeistMono NFP,GeistMono NFP SemiBold
+GeistMono Nerd Font Propo,GeistMono NFP,GeistMono NFP Thin
+GeistMono Nerd Font Propo,GeistMono NFP,GeistMono NFP UltraBlack
+GeistMono Nerd Font Propo,GeistMono NFP,GeistMono NFP UltraLight
+Grape Nuts
+Iosevka,Iosevka Nerd Font
+JetBrainsMono Nerd Font
 JetBrainsMono Nerd Font,JetBrainsMono NF
 JetBrainsMono Nerd Font,JetBrainsMono NF,JetBrainsMono NF ExtraBold
 JetBrainsMono Nerd Font,JetBrainsMono NF,JetBrainsMono NF ExtraLight
@@ -64,4 +92,12 @@ MesloLGS Nerd Font
 MesloLGS Nerd Font Mono
 MesloLGS Nerd Font Propo
 MesloLGS NF
+Neue Machina
+Neue Machina,Neue Machina Light
+Neue Machina,Neue Machina Ultrabold
 Noto Color Emoji
+Serif UI Display
+Serif UI Text
+SF Mono
+SF Pro Display
+SF Pro Text
