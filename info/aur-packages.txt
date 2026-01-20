@@ -14,6 +14,8 @@ python-gpustat
 python-nvidia-ml-py
 python-pywal16
 python-pywalfox
+selectdefaultapplication-git
+selectdefaultapplication-git-debug
 visual-studio-code-bin
 wf-recorder-git
 wlogout
