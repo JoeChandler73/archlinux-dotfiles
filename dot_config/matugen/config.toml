@@ -5,8 +5,8 @@ scheme_type = "expressive"  # This will give you much more color variation!
 
 [config.wallpaper]
 command = "swww"
-arguments = ["img", "--transition-type", "center", "--transition-fps", "60"]
-set = true
+arguments = ["img", "--transition-type", "center"]
+set = false
 
 # For example, killing the wallpaper daemon. Usage is like a normal hook.
 # pre_hook = ""
@@ -31,8 +31,8 @@ input_path = '~/.config/matugen/templates/wofi.css'
 output_path = '~/.config/wofi/style.css'
 
 [templates.rofi]
-input_path = '~/.config/matugen/templates/rofi.rasi'
-output_path = '~/.config/rofi/launchers/type-7/style-3.rasi'
+input_path = '~/.config/matugen/templates/rofi-colors.rasi'
+output_path = '~/.config/rofi/launchers/shared/matugen.rasi'
 
 [templates.pywalfox]
 input_path = '~/.config/matugen/templates/pywalfox-colors.json'
