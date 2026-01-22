@@ -1,8 +1,8 @@
 /* wofi.css template */
 window {
     margin: 0px;
-    border: 2px solid #83d2e3;
-    background-color: #0e1416;
+    border: 2px solid #ffb4a8;
+    background-color: #1a1110;
     width: 300px;  /* Adjust this value to your preference */
     font-family: "JetBrainsMono Nerd Font Propo", sans-serif;
     font-size: 14px;
@@ -11,20 +11,20 @@ window {
 #input {
     margin: 5px;
     border: none;
-    color: #dee3e5;
-    background-color: #3f484a;
+    color: #f1dfdb;
+    background-color: #534341;
 }
 
 #inner-box {
     margin: 5px;
     border: none;
-    background-color: #0e1416;
+    background-color: #1a1110;
 }
 
 #outer-box {
     margin: 5px;
     border: none;
-    background-color: #006674;
+    background-color: #a24d40;
 }
 
 #scroll {
@@ -35,13 +35,13 @@ window {
 #text {
     margin: 5px;
     border: none;
-    color: #dee3e5;
+    color: #f1dfdb;
 }
 
 #entry:selected {
-    background-color: #83d2e3;
+    background-color: #ffb4a8;
 }
 
 #text:selected {
-    color: #00363e;
+    color: #561e16;
 }

@@ -21,7 +21,7 @@
 
   "custom/launcher": {
     "format": "󰣇",
-    "on-click": "rofi -show drun -theme ~/.config/rofi/launchers/type-1/style-3.rasi"
+    "on-click": "rofi -show drun -theme ~/.config/rofi/launchers/type-1/style-6.rasi"
   },
 
   "clock": {
